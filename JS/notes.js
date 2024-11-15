@@ -2,7 +2,7 @@ async function getData() {
   //const response = await fetch("link of api");
   //console.log(response); // hey go out there and get this data from the outside, status 200 = got this data
   try {
-    const response = await fetch("link of api");
+    const response = await fetch("https://whiskyhunter.net/api/");
     if (response.status != 200) {
       throw new Error(response); // do a error response, goes to the catch error
     } else {
@@ -19,3 +19,5 @@ async function getData() {
   // fetch returns a promise
 }
 getData();
+
+//core no
