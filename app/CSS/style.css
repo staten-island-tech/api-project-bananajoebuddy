@@ -1,0 +1,59 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Basic styling for the container and cards */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.card-container {
+    align-self: center;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.card {
+    width: 40rem;
+    max-width: 400px;
+    height: auto;
+    background-color: #2e4057;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #048ba8;
+}
+
+.card p {
+    color: #048ba8;
+    font-size: 1rem;
+    margin: 5px 0;
+}
