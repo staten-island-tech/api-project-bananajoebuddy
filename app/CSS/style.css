@@ -4,7 +4,7 @@
 
 
 /* Basic styling for the container and cards */
-body {
+/*body {
     font-family: Arial, sans-serif;
     background-color: #EFC69B;
  }
@@ -59,25 +59,4 @@ body {
     margin: 5px 0;
  }
  
- 
-#button-container {
-   display: flex; 
-   justify-content: space-between; 
-   align-items: center; 
-   width: 100%; 
-   margin-bottom: 1.0rem; 
-}
- 
-.skibidi {
-      margin: 0.5rem; 
-      padding: 10px 20px; 
-      font-size: 1rem;
-      background-color: #AF1B3F; 
-      color: #473144;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      /*flex-grow: 1;  Makes buttons grow to fill available space*/
-      text-align: center; 
-
-}
+ */
