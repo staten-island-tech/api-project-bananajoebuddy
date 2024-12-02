@@ -1,5 +1,7 @@
 // import { getData } from "./list.js"
 
+//
+
 const DOMSelectors = {
   container: document.getElementById("container"),
 };

@@ -5,7 +5,7 @@
 
 /* Basic styling for the container and cards */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Times New Roman, sans-serif;
     background-color: #EFC69B;
  }
  
@@ -67,7 +67,7 @@ body {
    width: 100%; 
    margin-bottom: 1.0rem; 
 }
- 
+
 .skibidi {
       margin: 0.5rem; 
       padding: 10px 20px; 
