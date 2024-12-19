@@ -37,8 +37,7 @@ function createCards(data) {
   data.forEach((holiday) => {
     DOMSelectors.container.insertAdjacentHTML(
       "beforeend",
-      `<div class="card bg-[#db4d70] border-4 border-[#392537] rounded-xl shadow-md flex flex-col items-center justify-evenly p-4 transition-transform duration-200 ease-in-out hover:scale-105
-        sm:flex-row sm:space-x-4 sm:items-start sm:p-6 md:p-8 lg:p-10 lg:space-x-6">
+      `<div class="card bg-[#db4d70] border-4 border-[#392537] rounded-xl shadow-md flex flex-col items-center text-justify justify-evenly p-4 transition-transform duration-200 ease-in-out hover:scale-105">
         <h3 class="text-green-900 text-lg my-2">${holiday.name}</h3>
         <p class="text-green-900 text-base my-1"><strong>Date:</strong> ${holiday.date}</p>
         <p class="text-green-900 text-base my-1"><strong>Local Name:</strong> ${holiday.localName}</p>
